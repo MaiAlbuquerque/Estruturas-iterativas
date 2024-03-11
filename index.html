@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> M3P07</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main>
+
+        <h1>Aposte e ganhe!</h1>
+        <h2> Você tem 50 moedas</h2>
+
+        <div>
+
+            <label for="chosenNumberInput">Escolha um número entre 1 e 6 para apostar. <br>
+                 Só poderá apostar uma vez até o fim. 
+                 <br> Escolha com atenção!:</label>
+            <input type="number" id="chosenNumberInput" min="1" max="6">
+            <br>
+            <br>
+            <label for="betInput">Quantas moedas você quer apostar? (Mínimo: 1)</label>
+            <input type="number" id="betInput" min="1">
+            <br>
+            <br>
+            <button onclick="playRound()">Jogar</button>
+
+        </div>
+
+    </main>
+
+    <script src="javascript.js"></script>
+</body>
+
+</html>

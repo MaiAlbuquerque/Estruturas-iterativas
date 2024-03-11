@@ -1,0 +1,55 @@
+
+   body {
+        background-image: url('./friends-havinf-fun-while-playing-poker.jpg'); /* caminho para sua imagem */
+        background-size: cover; /* ajusta a imagem para cobrir todo o elemento */
+        
+        height: 900px;
+    }
+
+    h1{
+        text-align: center;
+        color: white;
+        font-size: 46px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 3px;
+    }
+    h2{
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    div{
+        background-color: black;
+        color: white;
+        margin: auto;
+        text-align: center;
+        padding: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+
+    label{
+
+        padding: 10px;
+
+
+    }
+
+    main{
+        display: flex;
+        justify-content: center ;
+       flex-direction: column;
+
+    }
+
+    button{
+
+        margin: auto;
+        text-align: center;
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
